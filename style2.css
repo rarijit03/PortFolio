@@ -1,0 +1,331 @@
+body{
+   
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+nav{
+    background-color: #040720;
+    position: fixed;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+
+}
+
+nav ul li a{
+    font-size: 20px;
+    padding: 0 15px;
+    color:  aliceblue;
+    transition: 0.2s;
+    text-transform:uppercase;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover{
+    transition: 1s;
+    color: #f1f6a3;
+    font-size: larger;
+}
+
+.hero-container{
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+}
+
+.hero{
+    padding-top: 100px;
+}
+
+.hero img{
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    max-width: 440px;
+}
+
+.hero h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 35px;
+    margin: 20px 0 20px;
+    padding-bottom: 20px;
+}
+
+#aboutme{
+    width: 90%;
+    max-width: 1100px;
+    height: auto;
+    text-align: center;
+    padding: 40px 50px 70px;
+    margin: 0 auto;
+    box-shadow: -20px -20px #ef0732ed , 20px 20px #940099;
+    border-radius: 15px;
+    background-color: white;
+    
+}
+
+#aboutme h2{
+    text-align: center;
+    font-size: 100px;
+    padding-bottom: 10px;
+}
+
+.aboutme-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    flex-direction: row;
+}
+
+
+
+.aboutme-image{
+    height:450px;
+    width: 400px;
+    background-image: url(../my_image.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.aboutme-text{
+    margin-left: 40px;
+    width: 40%;
+    font-size: 20px;
+}
+
+#projects{
+    padding: 5px;
+    width: 90%;
+    margin: 5%;
+    height: auto;
+    text-align: center;
+}
+
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow:wrap;
+}
+
+#projects h2{
+    color: white;
+    font-size: 100px;
+    text-transform: capitalize;
+}
+
+
+.project-1{
+    background-image: url(flowers-8763039_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+    position:relative;
+
+    margin: 20px;
+}
+
+.text{
+    position: absolute;
+    height: 55px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+    overflow: hidden;
+    transition: 0.2s;
+    padding: .10px;
+    border-radius: 15px;
+    
+} 
+
+.text:hover{
+    height: 150px;
+}
+
+.project-2{
+    background-image: url(tablets-5620566_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+    position:relative;
+
+    margin: 20px;
+}
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(to top, #fa7373 30%, #f3cf32 100%);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#contactme{
+    width:100%;
+    height: auto;
+    background-color: white;
+    padding: 20px 30px 50px;
+    justify-content: center;
+    text-align: center;
+    display: block;
+   
+}
+
+#contactme{
+    background-color: #3b1f5e;
+    color: white;
+}
+
+
+#contactme h2{
+    font-size: 100px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+.form-header{
+    justify-content: center;
+    margin-bottom: 50px ;
+    font-size: 20px;
+    text-align: center;
+    text-transform:uppercase;
+}
+
+
+
+.contactme-form{
+
+    display: flex;
+    margin: 0 auto;
+    max-width: 1100px;
+    text-align: left;
+    max-width: 1100px;
+    padding: 40px 50px 70px;
+    
+}
+
+.contact-details{
+    
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-right: 100px;
+    width: 100%;
+} 
+
+
+.contactme-form label{
+    display: block;
+    margin-bottom: 9px;
+    font-size: 20px;
+}
+
+.contactme-form input{
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: left;
+
+}
+
+.message label{
+    font-size: 20px;
+}
+
+.message textarea{
+    border-radius: 15px;
+    padding: 15px;
+    border-width: 3px;
+}
+
+.form-footer{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.message button{
+    margin-top: 25px;
+    margin-right: 50px;
+    width: 200px;
+    border-radius: 15px;
+    padding:10px;
+    background-color: beige;
+}
+
+.message button:hover{
+    font-size:larger;
+    color: #4a063e;
+    text-align: center;
+}
+
+footer {
+    height: 90px;
+    width: 104%;
+    background-color: #1f2027;
+    margin: 0;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+.Social-Media {
+    font-size: 200%;
+    width: auto;
+    margin-left: 1100px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.Social-Media a i{
+    color: white;
+    transition: 0.2s;
+}
+
+.Social-Media a i:hover {
+    color: lightblue;
+    transition: 0.2;
+}
+
+.copyright {
+    color: white;
+    padding-left: 10px;
+}
